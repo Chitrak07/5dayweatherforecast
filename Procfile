@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run weather_app.py
+web: gunicorn app:app
